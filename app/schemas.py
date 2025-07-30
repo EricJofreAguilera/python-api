@@ -4,9 +4,9 @@ from typing import List
 from datetime import datetime
 
 class Phone(BaseModel):
-    number: str
-    citycode: str
-    contrycode: str
+    number: int
+    citycode: int
+    contrycode: int
 
 class UserCreate(BaseModel):
     name: str
